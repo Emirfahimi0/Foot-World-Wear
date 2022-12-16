@@ -1,0 +1,279 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body{
+  background-image:url(../img/nike-red.jpg);
+  background-position:center;
+  background-size: contain;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-size: 14px;
+}
+.container {
+  color: white;
+  width: 80%;
+  margin: 50px auto;
+}
+
+.contact-box{
+  background: white;
+  display: flex;
+}
+.contact-left{
+  flex-basis: 60%;
+  color: black;
+  padding:40px 60px;
+}
+.contact-right{
+  flex-basis: 50%;
+  padding:40px 60px;
+  background:black;
+}
+h1{
+  margin-bottom: 10px;
+}
+  .container p{
+  margin-bottom: 40px;
+  }
+.input-row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.input-row .input-group{
+  flex-basis: 45%;
+}
+input{
+  width:100%;
+  border: none;
+  border-bottom: 1px solid #C9CACA;
+  padding: 5px;
+  outline: none;
+}
+
+textarea {
+  width: 100%;
+  border 1px solid #ccc;
+  outline:none;
+  padding: 10px;
+}
+label{
+  margin-bottom: 8px;
+  display: block;
+  color: black;
+}
+button{
+    background:#3CE9AA ;
+    width: 100px;
+    border:none;
+    outline:none;
+    color:#fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+  }
+.contact-left h3{
+  color: #1c00b5;
+  font-weight: 600;
+  margin-bottom:30px;
+}
+
+#error-Message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+
+.subscribe_container {
+  display: grid;
+ place-items: center;
+  background-color: #ffffff;
+  padding: 3rem 5rem;
+  border-radius: 10px;
+}
+.subscribe_container  h3 {
+    color: black;
+    margin: 20px 0;
+  }
+
+.subscribe_container    p {
+    font-weight: 300;
+    color: black;
+  }
+
+.subscribe_container form {
+  color: black;
+    margin: 20px 0;
+
+    input[type="email"] {
+      width: 300px;
+      height: 50px;
+      padding: 1em 2rem;
+      border: 2px solid $border_color;
+      border-radius: 5px;
+      margin: 20px 20px 30px 0;
+
+      &::placeholder {
+        font-size: 1rem;
+        opacity: 0.7;
+        font-family: "Lato", sans-serif;
+      }
+    }
+
+    button {
+      display: inline-block;
+      padding: 1em 3em;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 1rem;
+      box-shadow: $box_shadow;
+
+      &:hover {
+        cursor: pointer;
+        background-color: #000000;
+      }
+    }
+
+    input[type="checkbox"] {
+      width: 15px;
+      height: 15px;
+      cursor: pointer;
+    }
+  }
+
+/* FOOTER SECTION */
+
+.footer {
+	width: 100%;
+	background: black;
+	display: flex;
+  font-family: 'Abel', sans-serif;
+}
+
+.inner-footer {
+	width: 95%;
+	margin: auto;
+	padding: 30px 10px;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	justify-content: center;
+}
+
+.footer-items {
+	width: 25%;
+	padding: 10px 20px;
+	box-sizing: border-box;
+}
+
+.footer h4 {
+	padding: 10px 0;
+	font-size: 25px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+
+#footer .border {
+	height: 2px;
+	width: 40px;
+	background: #ff9800;
+}
+
+.footer ul {
+
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+}
+.email {
+  color: white;
+}
+.footer-items a{
+  text-decoration: none;
+  color: white;
+}
+.footer ul a {
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	transition: 0.3s;
+}
+.footer a:hover{
+color: #64D578;
+}
+
+.footer ul a:hover {
+	color:#64D578;
+}
+
+.footer ul li {
+	margin: 10px 0;
+	height: 25px;
+}
+
+.footer li i {
+	margin-right: 20px;
+}
+
+ .social-list li{
+	color: #fff;
+  list-style: none;
+  display: inline-flex;
+}
+
+.social-list  li a {
+	text-decoration: none;
+  display:block;
+}
+
+ .social-list i {
+	height: 30px;
+	width: 30px;
+	margin: 10px 5px;
+	padding: 8px;
+	color: #fff;
+	border-radius: 50%;
+	border: 1px solid white;
+	transition: 0.3s;
+}
+
+ #instagram:hover {
+	background:#f2003c;
+}
+#twitter:hover {
+ background:#00acee;
+}
+#facebook:hover {
+ background:#3b5998;
+}
+.footer-bottom {
+	padding: 10px;
+	background: black;
+	color: grey;
+	font-size: 12px;
+
+}
+.mb-2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* END FOOTER SECTION */

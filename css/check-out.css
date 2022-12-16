@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+*{
+  margin: 0;
+  padding:0px;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Abel', sans-serif;
+  font-size: 15px;
+}
+
+body{
+ background-color:#ffffffee;
+  background-position: center;
+  background-size:contain;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-size: 14px;
+}
+.title{
+  padding: 20px 0 30px 40px;
+  color: rgb(73, 65, 65);
+  background-color:#ffffffee;
+}
+
+.title h2{
+  left: 50%;
+  margin-right: 45px;
+  transition: .3s;
+  font-size: 1.5rem;
+
+}
+
+.row {
+  padding: 10px;
+  display: flex;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+.cancel{
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+.cancel a{
+  color: rgb(104, 104, 104);
+
+}
+.cancel a:hover{
+  color: rgb(62, 175, 128);
+
+}
+
+.container {
+  background-color:#ffffffee;
+  box-shadow: 3px 3px 3px 5px rgb(143, 143, 143);
+  color: rgb(63, 63, 63);
+  padding: 5px 20px 15px 20px;
+  border: 3px solid white;
+  border-radius: 5px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 7px 7px 10px;
+  font-size: 24px;
+}
+.icon-container i {
+  padding: 7px 7px 7px 10px;
+  font-size: 45px;
+}
+.btn {
+  background-color:#4f7ed4;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color:#8CDA6A;
+}
+
+
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color:rgb(43, 43, 43);
+}
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+#expmonth{
+
+  text-transform: uppercase;
+}
+.item {
+  text-decoration: none;
+  color: rgb(63, 63, 63);
+}
